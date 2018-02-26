@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="demonstration_location" label="Demonstration Location" language="en" table="x_178741_adminprep_hhd_prototypes">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>demonstration_location</element>
+            <help/>
+            <hint/>
+            <label>Demonstration Location</label>
+            <language>en</language>
+            <name>x_178741_adminprep_hhd_prototypes</name>
+            <plural>Demonstration Locations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-26 11:20:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c5fd7241db2c1300503772ffbf961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Demonstration Location</sys_name>
+            <sys_package display_value="Admin Prep" source="x_178741_adminprep">c87e56c1dbe81300503772ffbf9619a0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Admin Prep">c87e56c1dbe81300503772ffbf9619a0</sys_scope>
+            <sys_update_name>sys_documentation_x_178741_adminprep_hhd_prototypes_demonstration_location_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-26 11:20:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

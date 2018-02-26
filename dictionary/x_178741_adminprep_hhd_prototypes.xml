@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="HHD Prototypes" max_length="40" name="x_178741_adminprep_hhd_prototypes" type="collection">
+        <element label="Assigned Development Group" max_length="32" name="assigned_development_group" reference="sys_user_group" type="reference"/>
+        <element label="Demonstration Location" max_length="32" name="demonstration_location" reference="cmn_location" type="reference"/>
+        <element label="HHD Evangelist" max_length="32" name="hhd_evangelist" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="HHD Identifier" max_length="40" name="hhd_identifier" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Prototype Demo Notes" max_length="4000" name="prototype_demo_notes" type="journal"/>
+        <element label="Status" max_length="40" name="status" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="System Name" max_length="40" name="system_name" type="string"/>
+        <index name="index">
+            <element name="hhd_evangelist"/>
+        </index>
+        <index name="index2">
+            <element name="demonstration_location"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_development_group"/>
+        </index>
+    </element>
+</database>
